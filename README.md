@@ -1,4 +1,4 @@
-# MATLAB-image-processing
+# MATLAB-image-processing (Receipt Classification) 
 The implementation of the image processing algorithm for receipt classification taught on the "Image Processing Onramp" course, featuring contrast adjustment, noise filtering, morphological operations, binary masking, and local extrema analysis for sound distinction between receipt and non-receipt images. 
 
 The algorithm workflow is as follows: 
@@ -97,7 +97,7 @@ I = imread("Image_001.png");
 classifyImage(I) 
 ```
 
-However, what if we want to treat thousands of images at once?  Now we will treat the application.m script.  
+However, what if we want to treat thousands of images at once?  Now we will treat the batchprocess.m script.  
 
 ```matlab
 ds = imageDatastore("Images");
